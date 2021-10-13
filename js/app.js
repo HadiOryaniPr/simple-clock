@@ -1,8 +1,8 @@
 function myClock() {
-  var myTime = new Date();
-  var hour = myTime.getHours();
-  var minuts = myTime.getMinutes();
-  var second = myTime.getSeconds();
+  let myTime = new Date();
+  let hour = myTime.getHours();
+  let minuts = myTime.getMinutes();
+  let second = myTime.getSeconds();
 
   var p = "AM";
 
