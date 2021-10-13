@@ -23,11 +23,11 @@ function myClock() {
     second = "0" + second;
   }
 
-  var myclock = hour + " : " + minuts + " : " + second + " " + p; //Show clock
+  let myclock = hour + " : " + minuts + " : " + second + " " + p; //Show clock
 
-  var clock = (document.querySelector(".clock").textContent = myclock);
+  let clock = (document.querySelector(".clock").textContent = myclock);
 
-  var timeout = setTimeout(myClock, 1000);
+  let timeout = setTimeout(myClock, 1000);
 }
 
 myClock();
