@@ -1,4 +1,5 @@
-simple clock with JS
+simple clock
+
 
 
 ![1](https://user-images.githubusercontent.com/83688429/128763683-9e290367-1f4f-495e-95b9-c15c5027dcc0.png)
