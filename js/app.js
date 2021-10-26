@@ -3,7 +3,7 @@ function myClock() {
   let hour = myTime.getHours();
   let minuts = myTime.getMinutes();
   let second = myTime.getSeconds();
-
+ 
   let p = "AM";
 
   if (hour > 12) {
